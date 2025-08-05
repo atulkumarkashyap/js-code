@@ -4,3 +4,27 @@
 // string,number,boolean,null,undefined,symbol,bigint
 // non primitive
 // array,objects,functions,
+
+const id = Symbol('789')
+const anotherId = Symbol('789')
+console.log(id === anotherId)
+
+// non primitive
+// arrays,objects,functions
+
+const array = ["football","golf","baseball"]
+
+
+// objects
+let myObj = {
+    name: "aman",
+    age: 18,
+}
+
+const myFunction = function(){
+    console.log("hello")
+}
+ console.log(2+2)
+ console.log(typeof null) // object
+
+ 
